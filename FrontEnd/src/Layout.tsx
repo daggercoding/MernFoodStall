@@ -1,14 +1,14 @@
 import Header from "./components/Header"
 
 type Props={
-    child:React.ReactNode
+    children:React.ReactNode
 }
 
-const Layout = ({child}:Props) => {
+const Layout = ({children}:Props) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header></Header>
-      <span>{child}</span>
+      <span>{children}</span>
     </div>
   )
 }
