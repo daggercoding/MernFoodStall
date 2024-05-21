@@ -11,7 +11,7 @@ const HomePage = () => {
             <img src={landing}></img>
            <div className="flex flex-col items-center justify-items-center">
             <h1 className="text-2xl">Order takeaway even faster!</h1>
-            <p className="text-[12px]">Download the MERN app for Faster ordering and Persionalised Experience</p>
+            <p className="text-[12px]">Download MERN app for Faster ordering and Persionalised Experience</p>
             <img src={download}></img>
            </div>
         </div>
